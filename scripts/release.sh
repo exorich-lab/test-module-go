@@ -23,9 +23,10 @@ VERSION=${1:-"v1.0.0"}
 
 echo "Подготовка к публикации модуля $MODULE_NAME версии $VERSION"
 
-# Создаем репозиторий на GitHub
-echo "Создание репозитория на GitHub..."
-gh repo create $MODULE_NAME --public --description "Go модуль для обработки и анализа текста" --source=. --remote=origin --push
+# Добавляем удаленный репозиторий
+echo "Добавление удаленного репозитория..."
+git remote add origin https://github.com/$MODULE_NAME.git
+git push -u origin main
 
 # Создаем релиз
 echo "Создание релиза $VERSION..."

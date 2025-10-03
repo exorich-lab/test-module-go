@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chugunok/textutils"
+	"github.com/exorich-lab/test-module-go"
 )
 
 func main() {

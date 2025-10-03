@@ -21,7 +21,7 @@ linters-settings:
   lll:
     line-length: 140
   goimports:
-    local-prefixes: github.com/chugunok/textutils
+    local-prefixes: github.com/exorich-lab/test-module-go
   gocritic:
     enabled-tags:
       - diagnostic

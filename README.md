@@ -1,15 +1,15 @@
 # TextUtils
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/chugunok/textutils.svg)](https://pkg.go.dev/github.com/chugunok/textutils)
-[![Go Report Card](https://goreportcard.com/badge/github.com/chugunok/textutils)](https://goreportcard.com/report/github.com/chugunok/textutils)
-[![CI](https://github.com/chugunok/textutils/workflows/CI/badge.svg)](https://github.com/chugunok/textutils/actions)
+[![Go Reference](https://pkg.go.dev/badge/github.com/exorich-lab/test-module-go.svg)](https://pkg.go.dev/github.com/exorich-lab/test-module-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/exorich-lab/test-module-go)](https://goreportcard.com/report/github.com/exorich-lab/test-module-go)
+[![CI](https://github.com/exorich-lab/test-module-go/workflows/CI/badge.svg)](https://github.com/exorich-lab/test-module-go/actions)
 
 TextUtils - это Go модуль, предоставляющий набор утилит для обработки и анализа текста. Модуль включает функции для статистического анализа текста, проверки палиндромов, извлечения email адресов и URL, а также другие полезные операции со строками.
 
 ## Установка
 
 ```bash
-go get github.com/chugunok/textutils
+go get github.com/exorich-lab/test-module-go
 ```
 
 ## Возможности
@@ -29,7 +29,7 @@ package main
 
 import (
     "fmt"
-    "github.com/chugunok/textutils"
+    "github.com/exorich-lab/test-module-go"
 )
 
 func main() {
@@ -161,7 +161,7 @@ go test -cover
 
 ## TODO
 
-- [ ] Добавить поддержку更多 языков
+- [ ] Добавить поддержку больше языков
 - [ ] Реализовать функцию определения языка текста
 - [ ] Добавить морфологический анализ
 - [ ] Улучшить производительность для больших текстов

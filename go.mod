@@ -1,4 +1,4 @@
-module github.com/chugunok/textutils
+module github.com/exorich-lab/test-module-go
 
 go 1.21
 
